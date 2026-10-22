@@ -107,7 +107,6 @@ module.exports = {
   title: siteName,
   url: `https://${owner.toLowerCase()}.github.io`,
   baseUrl: userSite ? '/' : `/${repo}/`,
-  trailingSlash: false,
   // A page can link one this version does not hold, and an image key may not resolve:
   // the branch is Doc Writer's, so the customer cannot fix the page. Warn, never fail the build.
   onBrokenLinks: 'warn',
